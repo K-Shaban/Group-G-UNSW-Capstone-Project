@@ -10,7 +10,7 @@ Complete the information below regarding your group.
 
 ### Group members and zIDs
 - Kourosh Shaban (z5016011) - Group leader
-- Member 2 (zID2) - role
+- Kin Ieng Cheang (zID2) - role
 - Member 3 (zID3) - role
 - Member 4 (zID4) - role
 
