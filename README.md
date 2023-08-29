@@ -11,7 +11,7 @@ Complete the information below regarding your group.
 ### Group members and zIDs
 - Kourosh Shaban (z5016011) - Group leader
 - Kin Ieng Cheang (zID2) - role
-- Member 3 (zID3) - role
+- Alexander Hodges (z5411346) - role
 - Member 4 (zID4) - role
 
 ### Brief project description
