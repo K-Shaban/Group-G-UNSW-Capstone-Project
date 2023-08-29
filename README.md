@@ -12,7 +12,7 @@ Complete the information below regarding your group.
 - Kourosh Shaban (z5016011) - Group leader
 - Kin Ieng Cheang (zID2) - role
 - Alexander Hodges (z5411346) - role
-- Member 4 (zID4) - role
+- Zining Wang (zID5401010) - role
 
 ### Brief project description
 
