@@ -13,6 +13,20 @@ Discussion topics:
     b. Is there a better way to phrase it?
     c. Is the scope of our question/plan good enough for the project?
 
+    Proposal 1:
+    1. Show the effect of solar energy on the demand at different times of the day as renewables are increasing and coal plants are shutting down.
+    2. Explain how weather as a key factor affects solar energy performance, and hence the demand.
+    3. Compare the impact of (forecast weather vs actual weather) vs (forecast usage vs actual total usage).
+    4. Taking into account the impact of the time and weather of a day, compute confidence interval for how much renewable energy is required to meet the forcasting demand as the amount of renewables increases.
+
+    Proposal 2:
+    Detect monday-friday differences due to the pandemic (2020-2022 compared to previously) and working from home (as more staying at home, means more midday energy usage from homes, whilst company buildings are still basically using the same energy)
+
+
+
+[9:09 AM]
+And with WFH becoming more of a norm (and things like 4 day work weeks are being considered), this seems like a valuable thing to forecast on its effect on energy demand in the future.
+
 2. Methods and software
     a. Could you give us more indication of how many methods/software we should use/have to get a high mark?
     b. For the previous offerings, how many methods/software did the best projects have?
