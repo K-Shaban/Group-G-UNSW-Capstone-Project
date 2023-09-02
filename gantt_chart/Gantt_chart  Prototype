@@ -1,0 +1,54 @@
+import pandas as pd
+import datetime as dt
+import matplotlib.pyplot as plt
+import seaborn as sns
+import warnings
+warnings.filterwarnings('ignore')
+sns.set_style('darkgrid')
+
+#loading data
+data1 = pd.read_csv(r'E:\study&work\unswStudy\DataScienceProject\datasets\GanttChart.csv')
+with pd.option_context('display.max_rows', 10, 'display.max_column', 100):
+    print(data1)
+
+# plot Gantt Chart
+#Convert dates to datetime format
+data1.Start_Date =pd.to_datetime(data1.Start_Date)
+data1.End_Date =pd.to_datetime(data1.End_Date)
+
+#project level variables
+p_start=data1.Start_Date.min()
+p_end=data1.End_Date.max()
+p_duration=(p_end-p_start).days+1
+
+#custom color, x-ticks and x-tick labels
+x_ticks=[i for i in range(p_duration+1)]
+x_labels=[(p_start+dt.timedelta(days=i)).strftime('%d-%b')
+          for i in x_ticks]
+c_dict={'Kouro':'red', 'Kin':'green', 'Zining':'blue', 'Alex':'gold'}
+
+
+#plot Gantt Chart
+plt.figure(figsize=(12,7))
+plt.title('Group G:Project', size=18)
+
+#Light bar for tasks
+for i in range(data1.shape[0]):
+    color = c_dict[data1.Student[i]]
+    plt.barh(y=data1.Task[i], left=data1.Start_Day[i], width=data1.Duration[i],
+             alpha=0.4, color=color)
+#Darker bar for completed tasks
+    handles = plt.barh(y=data1.Task[i], left=data1.Start_Day[i], width=data1.Weight_Completion[i],
+             alpha=1, color=color)
+#Lable % Completion%
+    plt.text(x=data1.Start_Day[i]+data1.Weight_Completion[i],
+             y=data1.Task[i],
+             s=f'{data1.Completion[i]}%')
+    #plt.legend(handles=handles,labels=['Kouro','Kin','Josh'],loc='upper right',fontsize='medium',
+     #          title='Studnets', title_fontsize='large')
+
+plt.gca().invert_yaxis()
+plt.xticks(ticks=x_ticks[::3], labels=x_labels[::3])
+plt.grid(axis='x')
+
+plt.show()

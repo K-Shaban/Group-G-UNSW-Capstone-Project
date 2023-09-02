@@ -1,0 +1,20 @@
+Task,Start_Date,End_Date,Student,Completion,Duration,Start_Day,Weight_Completion
+Task A,15-Sep-23,1-Oct-23,Kouro,100,16,0,16
+Task B,16-Sep-23,2-Oct-23,Kin,70,16,1,11.2
+Task C,17-Sep-23,3-Oct-23,Zining,20,16,2,3.2
+Task D,18-Sep-23,4-Oct-23,Alex,100,16,3,16
+Task E,19-Sep-23,5-Oct-23,Kouro,70,16,4,11.2
+Task F,20-Sep-23,6-Oct-23,Kin,20,16,5,3.2
+Task G,21-Sep-23,7-Oct-23,Zining,100,16,6,16
+Task H,22-Sep-23,8-Oct-23,Alex,70,16,7,11.2
+Task I,23-Sep-23,9-Oct-23,Kouro,20,16,8,3.2
+Task J,24-Sep-23,10-Oct-23,Kin,100,16,9,16
+Task K,25-Sep-23,11-Oct-23,Zining,70,16,10,11.2
+Task L,26-Sep-23,12-Oct-23,Alex,20,16,11,3.2
+Task M,27-Sep-23,13-Oct-23,Kouro,100,16,12,16
+Task N,28-Sep-23,14-Oct-23,Kin,70,16,13,11.2
+Task O,29-Sep-23,15-Oct-23,Zining,20,16,14,3.2
+Task P,30-Sep-23,16-Oct-23,Alex,100,16,15,16
+Task Q,1-Oct-23,17-Oct-23,Kouro,70,16,16,11.2
+Task R,2-Oct-23,18-Oct-23,Kin,20,16,17,3.2
+Task S,3-Oct-23,19-Oct-23,Zining,100,16,18,16

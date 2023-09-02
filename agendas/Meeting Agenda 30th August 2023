@@ -1,0 +1,47 @@
+Meeting Agenda
+
+Date: Wednesday, 30th August 2023
+Time: 6-7pm
+
+Goal: 
+1. Discuss research question/plan
+2. Clarify project expectation
+
+Discussion topics:
+1. Proposed research question/plan
+    a. Is it possible to get full marks with this question and our plan?
+    b. Is there a better way to phrase it?
+    c. Is the scope of our question/plan good enough for the project?
+
+    Proposal 1:
+    1. Show the effect of solar energy on the demand at different times of the day as renewables are increasing and coal plants are shutting down.
+    2. Explain how weather as a key factor affects solar energy performance, and hence the demand.
+    3. Compare the impact of (forecast weather vs actual weather) vs (forecast usage vs actual total usage).
+    4. Taking into account the impact of the time and weather of a day, compute confidence interval for how much renewable energy is required to meet the forcasting demand as the amount of renewables increases.
+
+    Proposal 2:
+    Detect monday-friday differences due to the pandemic (2020-2022 compared to previously) and working from home (as more staying at home, means more midday energy usage from homes, whilst company buildings are still basically using the same energy)
+    And with WFH becoming more of a norm (and things like 4 day work weeks are being considered), this seems like a valuable thing to forecast on its effect on energy demand in the future.
+
+2. Methods and software
+    a. Could you give us more indication of how many methods/software we should use/have to get a high mark?
+    b. For the previous offerings, how many methods/software did the best projects have?
+    c. Is it recommended to use more datasets than the 3 provided? 
+
+3. GitHub
+    a. Have we set up our GitHub correctly?
+    b. Is it okay to set up a public repo, instead of a private repo?
+    b. Do you mark the work in GitHub?
+
+4. Clarification
+    a. When creating the list of main tasks/activities, how detailed should it be?
+    b. In relation to the literature review in assessment 1, do we focus on the research question area or the technical methods? 
+    c. How group work is evaluated and reflected in the marks?
+    d. The final report submission says no more than 35 pages. The template has 15 pages. Would any page number between 15-35 be fine?
+    e. Will future sessions have opportunities for feedback on the progress we’ve made?
+
+5. Technical
+    a. Can you help us set up the Rmd template?
+    b. Can you help us set up Trackdown in Google Docs for editing the Rmd?
+
+
