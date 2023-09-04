@@ -17,7 +17,7 @@
 \title{Group Project Plan by Group G\\[0.5cm]A Data Science Approach to
 Forecast Electricity Consumption in Australia}
 
-\authornameonly{Kourosh Shaban (z5016011), Kin Leng Cheng (zID), Alexander Hodges (z5411346). }
+\authornameonly{Kourosh Shaban (z5016011), Kin Ieng Cheang (z5003196), \\ Alexander Hodges (z5411346), Zining Wang (z5401010)}
 
 \author{\Authornameonly}
 
@@ -35,6 +35,13 @@ Forecast Electricity Consumption in Australia}
 
 
 \input{header.tex}
+
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\pagestyle{empty}
 
 \begin{document}
 
@@ -140,19 +147,73 @@ since this is an initial proposal. Finally, provide a clear description
 of the relevant data (format, storage, variables, messiness, size,
 complexity) and its relevance for the chosen problem.
 
+%%%%%%%%%%%%%%%%%%%%%%%%JoshJosh%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Preamble
+%\documentclass[10pt,a4paper,oneside]{report}
+%\usepackage{amsmath,amsthm,amssymb}
+%\usepackage{multirow}
+%\usepackage[table,xcdraw]{xcolor}
+%\usepackage{array}
+%\usepackage{colortbl}
+%\usepackage{graphicx}
+%\pagestyle{empty}
+
 \hypertarget{activities-and-schedule}{%
 \section{Activities and Schedule}\label{activities-and-schedule}}
+\setlength{\parindent}{0pt} %
 
-List the main project activities and create a timetable for the
-activities. You can use a Gantt Chart (see next page). Describe the
-roles of all team members with proper justification.
+%\vspace{-4cm}\section{Activities and Schedule}
+
+\textbf{Description of Activity Allocation:}
+Our project has 13 main activities, five of which are done jointly by all team members and the other seven are allocated to the most suitable team members based on their strengths. For example, Kin is good at research and has flexible working hours, so she was selected as the leader of our team, responsible for making Literature Review, deciding research questions and presentation slides. The following table shows the strengths of the group members and the activities they are responsible for.
+\begin{table}[htbp]
+	\resizebox{1\textwidth}{!}{
+	\begin{tabular}{|1|cll|}
+		\hline
+		\multicolumn{1}{|c|}{Tasks} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}Members Name} & \multicolumn{1}{c|}{Members Roles} & \multicolumn{1}{c|}{Members Strengths and Experiences} \\ \hline
+		Decide roles of members & \multicolumn{3}{c|}{All Members} \\ \hline
+		Decide research question & \multicolumn{3}{c|}{All Members} \\ \hline
+		Write project plan & \multicolumn{3}{c|}{All Members} \\ \hline
+		Write report & \multicolumn{3}{c|}{All Members} \\ \hline
+		Source external data & \multicolumn{3}{c|}{All Members} \\ \hline
+		Record presentation & \multicolumn{3}{c|}{All Members} \\ \hline
+		& \multicolumn{1}{c|}{Kin Cheang} & \multicolumn{1}{c|}{Team Leader} & Coding, Research, Mathematics \\ \cline{2-4} 
+		\multirow{-2}{*}{Literature review} & \multicolumn{1}{c|}{Zining Wang} & \multicolumn{1}{c|}{Data Analyst} & Coding, Data visualization, Research \\ \hline
+		& \multicolumn{1}{c|}{Alexander Hodges} & \multicolumn{1}{c|}{} & Coding, Machine learning, Mathematics \\ \cline{2-2} \cline{4-4} 
+		\multirow{-2}{*}{Research methods and software} & \multicolumn{1}{c|}{Zining Wang} & \multicolumn{1}{c|}{\multirow{-2}{*}{Data Analyst}} & Coding, Data visualization, Research \\ \hline
+		& \multicolumn{1}{c|}{Kourosh Shaban} & \multicolumn{1}{c|}{} & Coding, Machine learning, Mathematics \\ \cline{2-2} \cline{4-4} 
+		& \multicolumn{1}{c|}{Alexander Hodges} & \multicolumn{1}{c|}{} & Coding, Machine learning, Mathematics \\ \cline{2-2} \cline{4-4} 
+		\multirow{-3}{*}{Data preparation} & \multicolumn{1}{c|}{Zining Wang} & \multicolumn{1}{c|}{\multirow{-3}{*}{Data Analyst}} & Coding, Data visualization, Research \\ \hline
+		& \multicolumn{1}{l|}{Kourosh Shaban} & \multicolumn{1}{l|}{} & Coding, Machine learning, Mathematics \\ \cline{2-2} \cline{4-4} 
+		& \multicolumn{1}{l|}{Alexander Hodges} & \multicolumn{1}{l|}{} & Coding, Machine learning, Mathematics \\ \cline{2-2} \cline{4-4} 
+		\multirow{-3}{*}{Data analysis} & \multicolumn{1}{l|}{Zining Wang} & \multicolumn{1}{l|}{\multirow{-3}{*}{Data Analyst}} & Coding, Data visualization, Research \\ \hline
+		& \multicolumn{1}{l|}{Kourosh Shaban} & \multicolumn{1}{l|}{} & Coding, Machine learning, Mathematics \\ \cline{2-2} \cline{4-4} 
+		& \multicolumn{1}{l|}{Alexander Hodges} & \multicolumn{1}{l|}{} & Coding, Machine learning, Mathematics \\ \cline{2-2} \cline{4-4} 
+		\multirow{-3}{*}{Modelling} & \multicolumn{1}{l|}{Zining Wang} & \multicolumn{1}{l|}{\multirow{-3}{*}{Data Analyst}} & Coding, Data visualization, Research \\ \hline
+		& \multicolumn{1}{l|}{Kourosh Shaban} & \multicolumn{1}{l|}{} & Coding, Machine learning, Mathematics \\ \cline{2-2} \cline{4-4} 
+		& \multicolumn{1}{l|}{Alexander Hodges} & \multicolumn{1}{l|}{} & Coding, Machine learning, Mathematics \\ \cline{2-2} \cline{4-4} 
+		\multirow{-3}{*}{Evaluation of model} & \multicolumn{1}{l|}{Zining Wang} & \multicolumn{1}{l|}{\multirow{-3}{*}{Data Analyst}} & Coding, Data visualization, Research \\ \hline
+		Presentation slides & \multicolumn{1}{l|}{Kin Cheang} & \multicolumn{1}{l|}{Team Leader} & Coding, Research, Mathematics \\ \hline
+	\end{tabular}}
+\end{table}
+
+\textbf{Setting the start and end time of each activity:}
+The start time and end time of each activity are set based on the due time of each assignment in the course. To give team members enough time to review work and respond to unexpected issues, activities end one day earlier than the actual due date for each assignment. For example, the deadline for the final report is October 7, and the deadline for our group is October 6.
+
+\textbf{Description of project plan and schedule (Figure 1):}
+Project plan and schedule custom gantt charts made in excel. In order to make team members easy to use, gantt chart has only two manual functions: \item One is the name section in the upper right corner of the chart, and team members can view the progress of individual members/team members by clicking on the single/multiple name option. \item The other function is timeline cover, which allows members to drag the right side of the timeline cover to any date, with past times and completed activities in the dark side and future times and unfinished activities in the bright side.	
 
 \newpage
-
-Here is an example of a Gantt chart created using \LaTeX:
-
+	\begin{figure}[htbp]%opening statement-body
+		\centering
+		\vspace{-4cm}
+		\includegraphics[scale=0.58,angle=270]{C:/Users/Josh/Desktop/GanttChart.jpg} %may need change file path, GanttChart.jpg can find in gantt_chart folder/google drive
+		\caption{Project Plan and Timeline}
+	\end{figure}%closing statement-body
+	
+%\end{document}%closing statement-body
 \bigskip
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \hypertarget{references}{%
 \chapter*{References}\label{references}}
 \addcontentsline{toc}{chapter}{References}
@@ -161,13 +222,38 @@ Here is an example of a Gantt chart created using \LaTeX:
 \bibliography{references}
 
 \hypertarget{refs}{}
-\begin{CSLReferences}{0}{0}
-\leavevmode\vadjust pre{\hypertarget{ref-Lafaye2013}{}}%
-1. Lafaye de Micheaux P, Drouilhet R, Liquet B. The r software:
-Fundamentals of programming and statistical analysis. Springer New York;
-2013.
 
-\end{CSLReferences}
+\leavevmode\vadjust pre{\hypertarget{ref-Lafaye2013}{}}%
+
+\hangindent=2em
+\hangafter=1
+Abu-Rayash, A. \& Dincer, I., 2020, ‘Analysis of the electricity demand trends amidst the COVID-19 coronavirus pandemic’, Energy Research \& Social Science, vol. 68, pp.101682. \hfill\break
+
+\hangindent=2em
+\hangafter=1
+\noindent Australian Energy Market Operator (AEMO) 2020, COVID-19 Demand Impact in Australia, assessed 30 August 2023, $<$https://aemo.com.au/en/newsroom/news-updates/demand-impact-australia-covid19$>$. \hfill\break
+
+\hangindent=2em
+\hangafter=1
+\noindent Farrow, H. 2020, Commercial down v residential up: COVID-19’s electricity impact, Energy Networks Australia, assessed 30 August 2023, $<$https://www. energynetworks.com.au/news/energy-insider/2020-energy-insider/commercial -down-v-residential-up-covid-19s-electricity-impact/\#\_edn2$>$. \hfill\break
+
+\hangindent=2em
+\hangafter=1
+\noindent Krarti, M. \& Aldubyan, M. 2021, ‘Review analysis of COVID-19 impact on electricity demand for residential buildings’, Renewable and Sustainable Energy Reviews, vol. 143, pp.110888. \hfill\break
+
+\hangindent=2em
+\hangafter=1
+\noindent Santiago, I., Moreno-Munoz, A., Quintero-Jiménez, P., Garcia-Torres, F. \& Gonzalez-Redondo, M.J. 2021, ‘Electricity demand during pandemic times: The case of the COVID-19 in Spain’, Energy Policy, vol. 148, pp.111964. \hfill\break
+
+\hangindent=2em
+\hangafter=1
+\noindent Snow, S., Bean, R., Glencross, M. \& Horrocks, N. 2020, ‘Drivers behind residential electricity demand fluctuations due to COVID-19 restrictions’, Energies, vol. 13, no. 21, pp.5738. \hfill\break
+
+\hangindent=2em
+\hangafter=1
+\noindent Wu, J., Levi, N., Araujo, R. \& Wang, Y.G. 2023, ‘An evaluation of the impact of COVID-19 lockdowns on electricity demand’, Electric Power Systems Research, vol. 216, pp.109015. \hfill\break
+
+
 
 
 
