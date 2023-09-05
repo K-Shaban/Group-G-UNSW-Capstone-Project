@@ -1,0 +1,29 @@
+Meeting Agenda
+
+Date: Wednesday, 6th September 2023
+Time: 6-7pm
+
+Goal: Gain feedback on research question/approach
+
+Discussion topics:
+- Proposed research question:
+  The impact of Covid-19 lockdowns and work-from-home trend on electricity demand in NSW
+
+- Approach: 
+  Isolate the effects of lockdowns, and working from home from the pre-Covid trend in the present energy demand curve. 
+  In doing so we can generate valuable insights on how the persistent shift to working from home will continue to effect energy demand in the future.
+  We will:
+  1. Build a forecast model for demand up to 2019 (pre-Covid). 
+  2. Project demand from 2019 to 2023 as if no covid happened. 
+  3. Compare to actual demand in 2022-2023 to study the impact of persistant WFH style to demand.
+  4. Effect of lockdowns on demand will also be analysed. 
+
+- Questions:
+  1. Can we expand the provided data set to most updated data (June 2023)?
+  2. Can you give us some feedback on our chosen research question and approach?
+  3. Is the scope of our question/plan good enough for the project?
+  4. Suggestions for achieving high mark in this course?
+
+- Technical: GitHub
+
+
