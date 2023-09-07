@@ -14,8 +14,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Group Project Plan by Group G\\[0.5cm]A Data Science Approach to
-Forecast Electricity Consumption in Australia}
+\title{Group Project Plan by Group G\\[0.5cm]A Data Science Approach to study the impact of COVID-19 Lockdowns and Work-From-Home Trend on Electricity Demand in New South Wales}
 
 \authornameonly{Kourosh Shaban (z5016011), Kin Ieng Cheang (z5003196), \\ Alexander Hodges (z5411346), Zining Wang (z5401010)}
 
@@ -36,44 +35,11 @@ Forecast Electricity Consumption in Australia}
 
 \input{header.tex}
 
-\usepackage{multirow}
-\usepackage[table,xcdraw]{xcolor}
-\usepackage{array}
-\usepackage{colortbl}
-\usepackage{graphicx}
-\pagestyle{empty}
-
 \begin{document}
 
 \beforepreface
 
-\prefacesection{Abstract}
 
-A first assessed activity will be the Group Project Plan (20\%). The
-first step is to delimit the problem which will be studied. You should
-understand and define your own overall problem and propose a solution.
-Having only a short time to complete the project, it is crucial that the
-problem that will be studied is well defined. The approach to solve the
-problem should be original, so it will be necessary to carry out a
-preliminary literature review. This will prevent any plagiarism. This
-will also enable you to situate the project in a more global context. At
-this stage, one can identify potential approaches and software that will
-be used to solve the problem. It is necessary to plan any simulation
-carefully and to decide what statistical analyses will have to be
-carried out. All the sub-steps of the project should be planned
-precisely (a detailed schedule will be created). A kind of short draft
-version of your final report, consisting of a three-page proposal
-(excluding the mandatory pages devoted to the title, abstract, contents
-and references) will be submitted and discussed with one of the
-instructors at the end of Week 1 or in a clear definition of the problem
-you plan to study; a clear description of the data format and their
-storage; a clear description of the relevant data (variables, missing
-and corrupt values, etc.); the level of difficulty of the chosen data
-sets (size, complexity, messiness) and its relevance for the chosen
-problem; the appropriate choice of software and statistical methods to
-solve your research questions; a clear description of the role of each
-team member with a proper justification; the precision of your scheduled
-activities.
 
 %\afterpage{\blankpage}
 
@@ -108,68 +74,39 @@ Motivation}\label{introduction-and-motivation}}
 The Covid-19 pandemic resulted in a myriad of changes in the behaviour
 of individuals, businesses, and global economy. In the context of energy
 forecasting, the lockdowns due to the pandemic and the advent of working
-from home are interesting phenomena that have left notable impressions on the
-demand and supply of energy. Additionally, the growth of the digital economy
-was exacerbated as a result of the events of the pandemic and this in itself
-has transformed consumer and business energy use.
-
-Recent studies on global and Australian energy demand have indicated:
+from home are interesting phenomena that have left notable impressions on the demand and supply of energy. Additionally, the growth of the digital economy was exacerbated as a result of the events of the pandemic and this in itself has transformed consumer and business energy use. Recent studies on global and Australian energy demand have indicated:
 \begin{enumerate}
   \item Overall demand has reduced whilst residential demand has increased
   \item The pattern of demand has changed during the day and during the week
 \end{enumerate}
 
-Our goal in this analysis is to isolate the effects of lockdowns, and working
-from home from the pre-Covid trend in the present energy demand curve. In doing
-so we can generate valuable insights on how the persistent shift to working from
-home will continue to effect energy demand in the future.
-
 \bigskip
 
-To achieve this goal we will begin by determining a high-accuracy pre-Covid 5 minute
-energy demand forecasting model. To obtain this we will compare Multiple Linear
-Regression models, Random Forests, and Neural Networks using the weather and total
-energy demand data.
-
-This model will be applied to the Covid-to-present portion of the data and the output
-will be compared with the actual values to identify the impression of the pandemic
-and working from home on the pre-Covid trend.
+\noindent Our goal in this analysis is to isolate the effects of lockdowns, and working from home from the pre-Covid trend in the present energy demand curve. In doing so we can generate valuable insights on how the persistent shift to working from home will continue to effect energy demand in the future. To achieve this goal we will begin by determining a high-accuracy pre-Covid 5 minute energy demand forecasting model. To obtain this we will compare Multiple Linear Regression models, Random Forests, and Neural Networks using the weather and total energy demand data. This model will be applied to the Covid-to-present portion of the data and the output will be compared with the actual values to identify the impression of the pandemic and working from home on the pre-Covid trend.
 
 \hypertarget{brief-literature-review}{%
 \section{Brief Literature Review}\label{brief-literature-review}}
 
-Survey the most related work you have found in the literature. Due to
-space restrictions, describe only the most relevant work and discuss its
-connections to your work. Describe the methods employed in the related
-work, as well as the employed measure of success.
+To prevent the spread of Covid-19, governments worldwide implemented a range of measures including lockdowns, which has significantly influenced people’s living style. This has led to unprecedented changes in electricity demand patterns, prompting studies in a lot of countries. For example, during lockdowns, Spain experienced a 13.49\% decrease in electricity demand, with marked declines on workdays and altered daily usage patterns (Santiago et al. 2021). Ontario in Canada also witnessed reduced demand and shifted weekly usage pattern with a flattening daily demand curve since the pandemic (Abu-Rayash \& Dincer, 2020). While other countries such as China, Italy and India also found decreased demand overall, Krarti and Aldubyan (2021) used weather adjusted time series data and revealed as much as a 30\% increase of consumption in houses during lockdowns. 
 
 \bigskip
 
-In order to incorporate your own references in this report, we strongly
-advise you use BibTeX. Your references then need to be recorded in the
-file \texttt{references.bib}, and cited as follows {[}1{]}.
+Australia also recorded a decrease of 6.7\% in electricity demand overall a month after the implementation of Covid-19 measures (Farrow 2020). In particular, several studies examined the implication on commercial and residential demand in Victoria using weather adjusted comparison and regression models, showing similar results to other countries mentioned above (Farrow 2020; Wu et al. 2023). However, in New South Wales (NSW), it is challenging to separate the effect of residential and commercial demand due to the lack of smart metre installations (Snow et al. 2020), resulting in a lack of study in the effect of stay-at-home measure in NSW. Moreover, the adoption of hybrid working style continues to affect the electricity demand in Australian households even after the pandemic, resulting in a need of study in this area. When AEMO analysed the impact of Covid-19 on electricity demand, a “frozen in time” concept was adopted in their forecasting model which inputted pre-Covid-19 conditions and forecasted the demand for comparison with the actual demand during Covid-19 (AEMO 2020). A similar approach can be applied to study the trend of working from home on electricity demand in NSW post-Covid-19 and solve the challenge of isolating residential demand, assuming all commercial activities have resumed. 
+
 
 \hypertarget{methods-software-and-data-description}{%
 \section{Methods, Software and Data
 Description}\label{methods-software-and-data-description}}
 
-You should describe the techniques you intend to use and why you have
-selected these techniques. Also, describe the software and libraries
-that you will need to implement your analyses. You can revise this later
-since this is an initial proposal. Finally, provide a clear description
-of the relevant data (format, storage, variables, messiness, size,
-complexity) and its relevance for the chosen problem.
+Throughout this project, we will use data processing, storage, analysis, and various modelling techniques to predict ongoing energy demand in NSW. We will start by considering total energy demand data and forecast data, which will be processed and cleaned by removing outliers using the IQR elimination method. The data will then be normalised before exploring the best methods to incorporate it into predictive signals. The identification of various features will be important for developing potential uses for each of the individual signals. We will identify features using the Augmented Dickey-Fuller test to review autoregressive relationships and minimise them if necessary by analysing change in signal space instead of time horizon. Cross-correlation and other time series analysis tools will be used to identify correlations and select time frames for acting on signals. We will review any signal changes during the specific time frame of 2020-2022 and analyse residuals to isolate and incorporate additional load from work-at-home activities. Our goal is to experiment with a variety of models such as Multiple Linear Regression models, Random Forests, and Neural Networks to predict energy demand at time T+1 based on discovered signals, including changes in load during the pandemic.
 
-%%%%%%%%%%%%%%%%%%%%%%%%JoshJosh%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Preamble
-%\documentclass[10pt,a4paper,oneside]{report}
-%\usepackage{amsmath,amsthm,amssymb}
-%\usepackage{multirow}
-%\usepackage[table,xcdraw]{xcolor}
-%\usepackage{array}
-%\usepackage{colortbl}
-%\usepackage{graphicx}
-%\pagestyle{empty}
+\bigskip
+
+Python will be our main analysis tool with the report being constructed in Jupyter. Jupyter notebook provides an efficient system for code isolation and simultaneous work on multiple sections. It will also enable parallelisation of signal analysis throughout the project and enable model expansion. Python is preferred due to our experience with the language and its rich package ecosystem for analysis and modeling. We will primarily use Pandas and NumPy for data handling and processing, while scikit-learn library will be used for model construction, including MLR, Neural Network, and Random Forest Models with the extensions to the XGBoost Adaptive learning models. The initial model will be built from the base of using the temperature as a variable to predict the energy usage, starting with MLR modelling before investigation of deep learning techniques.
+
+\bigskip
+
+The data will be processed into training and test datasets, and converted into HDF format for efficient access and processing. Supplementary datasets will be converted to the same storage style. This modular storage system will help minimise the curse of dimensionality as more signals are introduced to the model. 
 
 \hypertarget{activities-and-schedule}{%
 \section{Activities and Schedule}\label{activities-and-schedule}}
@@ -183,7 +120,7 @@ Our project has 13 main activities, five of which are done jointly by all team m
 	\resizebox{1\textwidth}{!}{
 	\begin{tabular}{|1|cll|}
 		\hline
-		\multicolumn{1}{|c|}{Tasks} & \multicolumn{1}{c|}{\cellcolor[HTML]{FFFFFF}Members Name} & \multicolumn{1}{c|}{Members Roles} & \multicolumn{1}{c|}{Members Strengths and Experiences} \\ \hline
+		\multicolumn{1}{|c|}{Tasks} & \multicolumn{1}{c|}{Members Name} & \multicolumn{1}{c|}{Members Roles} & \multicolumn{1}{c|}{Members Strengths and Experiences} \\ \hline
 		Decide roles of members & \multicolumn{3}{c|}{All Members} \\ \hline
 		Decide research question & \multicolumn{3}{c|}{All Members} \\ \hline
 		Write project plan & \multicolumn{3}{c|}{All Members} \\ \hline
@@ -213,20 +150,17 @@ Our project has 13 main activities, five of which are done jointly by all team m
 \textbf{Setting the start and end time of each activity:}
 The start time and end time of each activity are set based on the due time of each assignment in the course. To give team members enough time to review work and respond to unexpected issues, activities end one day earlier than the actual due date for each assignment. For example, the deadline for the final report is October 7, and the deadline for our group is October 6.
 
-\textbf{Description of project plan and schedule (Figure 1):}
-Project plan and schedule custom gantt charts made in excel. In order to make team members easy to use, gantt chart has only two manual functions: \item One is the name section in the upper right corner of the chart, and team members can view the progress of individual members/team members by clicking on the single/multiple name option. \item The other function is timeline cover, which allows members to drag the right side of the timeline cover to any date, with past times and completed activities in the dark side and future times and unfinished activities in the bright side.	
+\bigskip
 
-\newpage
-	\begin{figure}[htbp]%opening statement-body
-		\centering
-		\vspace{-4cm}
-		\includegraphics[scale=0.58,angle=270]{C:/Users/Josh/Desktop/GanttChart.jpg} %may need change file path, GanttChart.jpg can find in gantt_chart folder/google drive
-		\caption{Project Plan and Timeline}
-	\end{figure}%closing statement-body
+\textbf{Description of project plan and schedule (Appendix Figure 1.1):}
+Project plan and schedule custom gantt charts made in excel. In order to make team members easy to use, gantt chart has only two manual functions: 
+\begin{itemize}
+    \item One is the name section in the upper right corner of the chart, and team members can view the progress of individual members/team members by clicking on the single/multiple name option. \item The other function is timeline cover, which allows members to drag the right side of the timeline cover to any date, with past times and completed activities in the dark side and future times and unfinished activities in the bright side.	
+\end{itemize}
 	
 %\end{document}%closing statement-body
 \bigskip
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \hypertarget{references}{%
 \chapter*{References}\label{references}}
 \addcontentsline{toc}{chapter}{References}
@@ -237,7 +171,6 @@ Project plan and schedule custom gantt charts made in excel. In order to make te
 \hypertarget{refs}{}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Lafaye2013}{}}%
-
 \hangindent=2em
 \hangafter=1
 Abu-Rayash, A. \& Dincer, I., 2020, ‘Analysis of the electricity demand trends amidst the COVID-19 coronavirus pandemic’, Energy Research \& Social Science, vol. 68, pp.101682. \hfill\break
@@ -266,8 +199,18 @@ Abu-Rayash, A. \& Dincer, I., 2020, ‘Analysis of the electricity demand trends
 \hangafter=1
 \noindent Wu, J., Levi, N., Araujo, R. \& Wang, Y.G. 2023, ‘An evaluation of the impact of COVID-19 lockdowns on electricity demand’, Electric Power Systems Research, vol. 216, pp.109015. \hfill\break
 
+\bigskip
 
+\hypertarget{appendix}{%
+\chapter*{Appendix}\label{appendix}}
+\addcontentsline{toc}{chapter}{Appendix}
 
+	\begin{figure}[htbp]%opening statement-body
+		\centering
+		
+		\includegraphics[scale=0.39,angle=270]{GanttChart.jpg} 
+		\caption{Project Plan and Timeline}
+	\end{figure}%closing statement-body
 
 
 
