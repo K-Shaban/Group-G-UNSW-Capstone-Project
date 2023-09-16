@@ -12,7 +12,7 @@ Complete the information below regarding your group.
 - Kin Ieng Cheang (z5003196) - Group leader & Research
 - Kourosh Shaban (z5016011) - Data Analyst
 - Alexander Hodges (z5411346) - Data Analyst
-- Zining Wang (zID5401010) - Data Analyst & Research
+- Zining Wang (z5401010) - Data Analyst & Research
 
 ### Brief project description
 

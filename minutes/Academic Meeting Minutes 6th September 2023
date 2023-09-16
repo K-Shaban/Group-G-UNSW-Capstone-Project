@@ -1,0 +1,42 @@
+Academic Meeting Minutes
+
+Date: Wednesday, 6th September 2023
+Time: 6pm - 7pm
+Purpose: Academic meeting - Gain feedback on research question/approach
+Location: Zoom
+Note Taker: Kin Ieng Cheang
+
+Attendees:
+Kourosh Shaban
+Kin Ieng Cheang
+Zining Wang (Josh)
+Alexander Hodges
+Dr Armin
+
+Agenda Items:
+  1. Can we expand the provided data set to most updated data (June 2023)?
+  2. Can you give us some feedback on our chosen research question and approach?
+  3. Is the scope of our question/plan good enough for the project?
+  4. Suggestions for achieving high mark in this course?
+  5. GitHub
+
+Discussion Items:
+Item                             | Who      | Notes 
+1. Expand data set               | Dr Armin | Can expand the current data set if we can find the data. Dr Armin will try to contact provider for latest data. 
+2. Feedback on research question | Dr Armin | Interesting research question but also challenging in terms of difficult to isolate the WFH effect as many other factors can influence demand such as inflation, war. 
+                                            |    - can try to find additional data around WFH and other.
+                                            |    - can try to find additional literature to support our argument.
+                                            |    - can try to consider adding a time constraint, trying isolation of different signals.
+3. Suggestions                   | Dr Armin | Always give reasons of our decisions. Think about "why". 
+                                            | Explain what value will our project add - why.
+                                            | When modelling, start with a simple one, then move to fancier. Be careful with Neural Network when dealfing time series data. 
+                                            | It is important to solve the question and complete the project. A complex research question but imcomplete project will lead to low mark. 
+                                            | Have a backup plan in case the initial research question cannot be solved. 
+4. Feedback on Project Plan      | Dr Armin | Our group will be marked by Dr Sarat, so it will be good to gain feedback from him too. Mark and feedback of project plan should be out by next Tuesday. 
+5. GitHub                        | Dr Armin | Can use other software but it will not be set up, so recommend to use GitHub if comfortable. 
+
+Action Items:
+Item                                    | Responsible | Due Date
+1. Research on the issues Armin raised  | All         | 10th September 2023
+2. Develop backup research question     | All         | 10th September 2023
+3. Sourcing and preparing data          | All         | 10th September 2023

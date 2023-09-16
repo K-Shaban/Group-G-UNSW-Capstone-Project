@@ -1,0 +1,27 @@
+Meeting Agenda
+
+Date: Wednesday, 12th September 2023
+Time: 8-9pm
+
+Goal: Gain feedback on research question/approach
+
+Discussion topics:
+
+- Per our last discussion, the challenge of our research question will be justifying the effect of WFH trend on electricity demand. 
+  (Our proposed research question is: The impact of Covid-19 lockdowns and work-from-home trend on electricity demand in NSW)
+
+- Proposed Approach: 
+  If we have incoporated inflation/CPI and/or the electricity price in our base model, can we justify the difference between the forcast and actual demand is from residentials (WFH)? 
+  We will:
+  1. Build a forecast model with pre-covid 19 conditions (weather, rooftop solar,  electricity price and WFH%).
+  2. Forcast demand from 2020 - 2022 as if no covid.
+  3. Compare it to actual demand in 2022. The difference (if any) will likely come from residentials assuming all commercial activities have resumed (based on recovery of GDP and restrictions have been lifted).
+  4. Forcast demand to 2025 (next coal power station will be closed) with different WFH rate, for government and AEMO to prepare to meet the demand.
+
+- Alternative research question:
+  Per NSW Electricity Infrastructure Roadmap, the government aims to boost renewable electricity generation to meet the demand when the coal power stations retire gradually. 
+  We want to see by the current growth rate of renewable energy, will NSW on track to meet the target and demand. 
+  We will:
+  1. Build a forecast model for total electricity demand to 2030 (set out in the roadmap).
+  2. Build a forecast model for renewable energy generation from wind, hydro, solar PV (large and small).
+  3. Compare to see if demand can be met. 
