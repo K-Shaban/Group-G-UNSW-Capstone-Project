@@ -1,0 +1,23 @@
+Meeting Agenda
+
+Date: Tuesday, 19th September 2023
+Time: 7-8pm
+
+Goal: Gain feedback on research question/approach
+
+Discussion topics:
+
+1. Change of project research direction
+Our initial research is about the impact of Covid-19 lockdowns and work-from-home trend on electricity demand in NSW.
+After discussing with Dr Armin, he suggested it will be challenging to isolate the effect of WFH from other factors that can affect demand. He suggested that we go for a boarder research question.
+Our alternative research will propose a new forecasting model that incorporate more social enconomical factors such as WFH%, interest rate and inflation, etc. post-covid. 
+The overall process is as below:
+ - Compare the social-economical conditions before and after covid and how it affects people’s behaviour in relation to electricity usage.
+ - Compare AEMO’s forecast and actual consumption data, and find any lack of accuracy.
+ - Develop a forecast model for maximum daily demand to incorporate the social-economical features (focus on residential impact) and test its performance. 
+ - Extension: Forecast to 2033 (when coal power plants retired and NSW will produce 20% less electricity by coal - roadmap) with different scenarios - rooftop solar, WFH%, etc.
+
+2. Clarification of reports
+  - For data preparation part, do we need to explain for every dataset we use, or can we explain it in general? 
+  - Can we use graphs directly from published reports with citations?
+  - Should we include a part for limitations? 
