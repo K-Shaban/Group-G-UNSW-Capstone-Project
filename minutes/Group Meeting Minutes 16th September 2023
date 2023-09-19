@@ -1,0 +1,27 @@
+Group Meeting Minutes
+
+Date: Saturday, 16th September 2023
+Time: 2pm - 4pm
+Purpose: Group meeting - Research question and task allocation
+Location: Discord
+Note Taker: Kin Ieng Cheang
+
+Attendees:
+Kourosh Shaban
+Kin Ieng Cheang
+Zining Wang (Josh)
+Alexander Hodges
+
+Discussion Items:
+Item                            | Who     | Notes 
+1. Decide research question     | All     | Justify a new model is needed post-covid as the social-economical conditions have changed. 
+2. Decide time horizon          | All     | 30 min intervals 6 hours in advance, justified by coal plants re-starting time. 
+3. Explorationary data analysis | All     | Demand pattern in a day, a week and a year for 2019 and 2022. Also forecast vs demand.
+4. Model features               | All     | Model features discussed. Need to source  data and justification.
+* Detail of each item is filed in Google Driving "List of Tasks". 
+
+Action Items:
+Item                                             | Responsible | Due Date
+1. Build initial model with current data         | Kouro, Alex | 23th September 2023
+2. Explorationary data analysis & visualisation  | Josh        | 23th September 2023
+3. Source external data (clean and store as csv) | Kin         | 23th September 2023
