@@ -1,0 +1,33 @@
+Academic Meeting Minutes
+
+Date: Wednesday, 19th September 2023
+Time: 7pm - 8pm
+Purpose: Academic meeting - Gain feedback on research question/approach
+Location: Zoom
+Note Taker: Kin Ieng Cheang
+
+Attendees:
+Kourosh Shaban
+Kin Ieng Cheang
+Zining Wang (Josh)
+Alexander Hodges
+Dr Sarat
+
+Agenda Items:
+  1. Change of project research direction
+  2. Clarification of report 
+
+Discussion Items:
+Item                             | Who      | Notes 
+1. Project progress              | Dr Sarat | Advised we should have a solid model running by now and should spend the rest of time for improving and polishing.  
+2. Project direction             | Dr Sarat | Should focus on the performance of the model, instead of forecasting the future as there are too many uncertainties, so not too meaningful. 
+3. Model                         | Dr Sarat | Always justify the decision of modeling method. Be careful when using nurmerical dummy variables - larger number may be given more significance. Suggested to use one-hot encoding.
+4. Code                          | Dr Sarat | Suggested separate notebooks for each model, but make sure the same test data is used. 
+5. Clarification of report       | Dr Sarat | For each dataset, write one paragraph to describe it such as the size and variables. 
+                                            | Should include one paragraph for limitation such as data availability. 
+                                            | For graphs from other publishments, only use it directly when it is critical. Always cite the source. 
+
+Action Items:
+Item                                             | Responsible   | Due Date
+1. Continue and finish the model                 | Alex & Kouro  | 30th September 2023
+2. Start writing report with information on hand | Josh & Kin    | 30th September 2023
